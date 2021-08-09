@@ -1,5 +1,6 @@
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;        
+import org.openqa.selenium.chrome.ChromeDriver;
+
 
 
 
@@ -13,11 +14,11 @@ public class demo {
 		
 		
 		
-		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Noisyboy\\Downloads\\chromedriver_win32\\chromedriver.exe");
-		WebDriver driver = new ChromeDriver();
-		driver.get("hhtps://www.google.com");
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Noisyboy\\Documents\\chromedriver.exe");
+WebDriver driver = new ChromeDriver();
+		driver.get("http://www.google.com");
 		 System.out.println(driver.getTitle());		
-		
+		driver.close();
 		
 		
 	}
